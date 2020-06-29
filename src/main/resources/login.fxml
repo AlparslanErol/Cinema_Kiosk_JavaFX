@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="300.0" prefWidth="300.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.LoginController">
+   <ImageView fitHeight="300.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="https://ih1.redbubble.net/image.362142917.9535/flat,1000x1000,075,f.u1.jpg"/>
+   </ImageView>
+   <Label fx:id="loginText" layoutX="14.0" layoutY="266.0" text="Status">
+      <font>
+         <Font size="18.0"/>
+      </font>
+   </Label>
+   <TextField fx:id="txtUserName" layoutX="62.0" layoutY="101.0" promptText="UserName">
+      <font>
+         <Font size="18.0"/>
+      </font>
+   </TextField>
+   <PasswordField fx:id="txtPassword" layoutX="62.0" layoutY="150.0" promptText="Password">
+      <font>
+         <Font size="18.0"/>
+      </font>
+   </PasswordField>
+   <Button layoutX="195.0" layoutY="246.0" mnemonicParsing="false" onAction="#signup"
+           styleClass="SignUp" text="Sign Up"/>
+   <Button layoutX="105.0" layoutY="197.0" mnemonicParsing="false" onAction="#login"
+           styleClass="Approval" text="Login"/>
+   <ImageView fitHeight="78.0" fitWidth="161.0" layoutX="95.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="https://www.eastgatepta.org/uploads/5/6/3/6/56361575/png-movie-night-582_orig.png"/>
+   </ImageView>
+   <ImageView fitHeight="39.0" fitWidth="49.0" layoutX="13.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="https://cdn.onlinewebfonts.com/svg/img_401900.png"/>
+   </ImageView>
+   <ImageView fitHeight="39.0" fitWidth="49.0" layoutX="10.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="https://img.icons8.com/all/500/password--v1.png"/>
+   </ImageView>
+</AnchorPane>

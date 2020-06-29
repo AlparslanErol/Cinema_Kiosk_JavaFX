@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane prefHeight="466.0" prefWidth="603.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.TicketStageController">
+   <ImageView fitHeight="599.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="https://365psd.com/images/istock/previews/1069/106900481-cinema-auditorium-with-screen-and-seats-vector.jpg"/>
+   </ImageView>
+   <ImageView fitHeight="190.0" fitWidth="599.0" layoutX="-3.0" layoutY="409.0" pickOnBounds="true">
+      <Image url="https://www.zicev.org.tr/wp-content/uploads/2018/05/black-background-1468370534d5s.jpg"/>
+   </ImageView>
+   <HBox layoutX="10.0" layoutY="426.0" prefHeight="100.0" prefWidth="200.0">
+      <Button fx:id="s1" mnemonicParsing="false" onAction="#click1" prefHeight="98.0" prefWidth="117.0">
+         <graphic>
+            <ImageView fx:id="seat1" fitHeight="127.0" fitWidth="96.0" pickOnBounds="true" preserveRatio="true">
+               <Image url="https://pngimage.net/wp-content/uploads/2018/05/cinema-seats-png-1.png"/>
+            </ImageView>
+         </graphic>
+         <HBox.margin>
+            <Insets left="2.0" right="2.0"/>
+         </HBox.margin>
+      </Button>
+      <Button fx:id="s2" mnemonicParsing="false" onAction="#click2" prefHeight="98.0" prefWidth="117.0">
+         <graphic>
+            <ImageView fx:id="seat2" fitHeight="127.0" fitWidth="96.0" pickOnBounds="true" preserveRatio="true">
+               <Image url="https://pngimage.net/wp-content/uploads/2018/05/cinema-seats-png-1.png"/>
+            </ImageView>
+         </graphic>
+         <HBox.margin>
+            <Insets left="2.0" right="2.0"/>
+         </HBox.margin>
+      </Button>
+      <Button fx:id="s3" mnemonicParsing="false" onAction="#click3" prefHeight="98.0" prefWidth="117.0">
+         <graphic>
+            <ImageView fx:id="seat3" fitHeight="127.0" fitWidth="96.0" pickOnBounds="true" preserveRatio="true">
+               <Image url="https://pngimage.net/wp-content/uploads/2018/05/cinema-seats-png-1.png"/>
+            </ImageView>
+         </graphic>
+         <HBox.margin>
+            <Insets left="2.0" right="2.0"/>
+         </HBox.margin>
+      </Button>
+      <Button fx:id="s4" mnemonicParsing="false" onAction="#click4" prefHeight="98.0" prefWidth="117.0">
+         <graphic>
+            <ImageView fx:id="seat4" fitHeight="127.0" fitWidth="96.0" pickOnBounds="true" preserveRatio="true">
+               <Image url="https://pngimage.net/wp-content/uploads/2018/05/cinema-seats-png-1.png"/>
+            </ImageView>
+         </graphic>
+         <HBox.margin>
+            <Insets left="2.0" right="2.0"/>
+         </HBox.margin>
+      </Button>
+      <Button fx:id="s5" mnemonicParsing="false" onAction="#click5" prefHeight="98.0" prefWidth="117.0">
+         <graphic>
+            <ImageView fx:id="seat5" fitHeight="127.0" fitWidth="96.0" pickOnBounds="true" preserveRatio="true">
+               <Image url="https://pngimage.net/wp-content/uploads/2018/05/cinema-seats-png-1.png"/>
+            </ImageView>
+         </graphic>
+         <HBox.margin>
+            <Insets left="2.0" right="2.0"/>
+         </HBox.margin>
+      </Button>
+   </HBox>
+   <Label alignment="CENTER" layoutX="59.0" layoutY="556.0" styleClass="LabelSeat" text="1"/>
+   <Label alignment="CENTER" layoutX="176.0" layoutY="556.0" styleClass="LabelSeat" text="2"/>
+   <Label alignment="CENTER" layoutX="289.0" layoutY="556.0" styleClass="LabelSeat" text="3"/>
+   <Label alignment="CENTER" layoutX="407.0" layoutY="556.0" styleClass="LabelSeat" text="4"/>
+   <Label alignment="CENTER" layoutX="503.0" layoutY="556.0" prefHeight="25.0" prefWidth="53.0" styleClass="LabelSeat"
+          text="5"/>
+</AnchorPane>

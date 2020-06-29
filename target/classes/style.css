@@ -1,0 +1,70 @@
+/* This is a comment in CSS */
+
+/**
+ * FROM PJAIT GUI CLASS GROUP 21C LESSON - 9
+ * @URL: https://dojo.pjwstk.edu.pl/en/gui/lesson-9
+ *
+ */
+
+.Label {
+    /* key: value; */
+    -fx-font: 40px Tahoma;   /* We are setting font Tahoma height 25px */
+    -fx-text-fill: #ff0000;
+}
+
+.LabelMovie {
+    /* key: value; */
+    -fx-font: 18px Tahoma;   /* We are setting font Tahoma height 25px */
+    -fx-text-fill: #000000;
+}
+
+.LabelSeat {
+    /* key: value; */
+    -fx-font: 25px Tahoma;   /* We are setting font Tahoma height 25px */
+    -fx-text-fill: #ffffff;
+}
+
+/* Dot before a name creates a class */
+.Approval {
+
+    -fx-background-color:
+            #000000,
+            linear-gradient(#7ebcea, #2f4b8f),
+            linear-gradient(#426ab7, #263e75),
+            linear-gradient(#395cab, #223768);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 12 30 12 30;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+}
+
+/* Dot before a name creates a class */
+.SignUp {
+
+    -fx-background-color:
+            #000000,
+            linear-gradient(#eaad7e, #8f552f),
+            linear-gradient(#b76b42, #754826),
+            linear-gradient(#ab5d39, #683822);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 12 30 12 30;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+}
+
+/* Dot before a name creates a class */
+.Submit {
+
+    -fx-background-color:
+            #000000,
+            linear-gradient(#a4ea7e, #3d8f2f),
+            linear-gradient(#61b742, #3e7526),
+            linear-gradient(#72ab39, #3d6822);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 12 30 12 30;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+}
